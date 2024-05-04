@@ -1,8 +1,5 @@
 function shortLongShort(str1, str2) {
-  const str1Length = str1.length;
-  const str2Length = str2.length;
-
-  if (str1Length < str2Length) {
+  if (str1.length < str2.length) {
     console.log(`${str1}${str2}${str1}`);
   } else {
     console.log(`${str2}${str1}${str2}`);
